@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body {
+	background-color: #00509d;  /**cor de fundo*/
+
+	color: #32cbff; /* letra*/
+	margin: 0;
+	font-family: 'Quicksand';
+}
+
+body.dark-mode {
+	background-color: #00296b;   /**cor de fundo*/
+	color: #00a5e0;  /* letra*/
+}
+
+main {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+	width: 100%;
+	background-color: #fdc500;  /*roda pe escuro*/
+	padding: 16px;
+	color: #00509d; /*letra claro*/
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-weight: 400;
+}
+
+footer.dark-mode {
+	background-color: #ffd500;
+	color: #00296b;/*letra escuro*/
+}
+
+button {
+	border-radius: 40px;
+	font-size: 1.5rem;
+	height: 60px;
+	width: 200px;
+	border: none;
+	background-color: #00296b; /*button dark*/
+	color: #00509d;
+	transition: all 0.5s linear;
+}
+
+button:hover {
+	background-color: #89a1ef;
+}
+
+button.dark-mode {
+	background-color: #00a5e0; /**/
+	color: white;/*letra*/
+}
+
+button.dark-mode:hover {
+	background-color: #32cbff;
+	color: white;
+}
